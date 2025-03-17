@@ -36,6 +36,7 @@ let myObj = {
 // console.log(typeof(myFunction)); // function
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//  Stack (Primitive), Heap (Non-Peimitive)
 
 let myYoutubname = "jensisanganidotcom"
 
