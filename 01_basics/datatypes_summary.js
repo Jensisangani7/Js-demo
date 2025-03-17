@@ -12,7 +12,7 @@ let userEmail;              //undefined
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigInt = 9785687245829875567982763582983756n; // bigint
 
@@ -32,7 +32,32 @@ let myObj = {
     console.log("Heloo world");
  }
 
-console.log(typeof(heros));      // object
-console.log(typeof(myFunction)); // function
+// console.log(typeof(heros));      // object
+// console.log(typeof(myFunction)); // function
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+let myYoutubname = "jensisanganidotcom"
+
+let anothername = myYoutubname
+anothername = "superangal"
+
+console.log(myYoutubname);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "jensi@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
 
 
